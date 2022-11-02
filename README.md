@@ -1,7 +1,7 @@
 ## Table of contents
 
 1. [Get Started](#Get-Started)
-2. [Experiments](#Experiments)
+2. [Training and evaluation](#Training-and-evaluation)
 3. [Contacts](#Contacts)
 4. [Citation](#Citation)
 # [WACV 2023] Single-Image HDR Reconstruction by Multi-Exposure Generation
