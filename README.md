@@ -9,7 +9,7 @@
 [Phuoc-Hieu Le](https://hieultp.github.io/), [Quynh Le](https://www.linkedin.com/in/quynhtle/), [Rang Nguyen](https://rangnguyen.github.io/), [Binh-Son Hua](https://sonhua.github.io/)
 
 <p align="center">
-  <img src="images/teaser.png" width=50%>
+  <img src="images/teaser.png" width=90%>
 </p>
 
 **Abstract:** <em>High dynamic range</em> (HDR) imaging is an indispensable technique in modern photography. Traditional methods focus on HDR reconstruction from multiple images, solving the core problems of image alignment, fusion, and tone mapping, yet having a perfect solution due to ghosting and other visual artifacts in the reconstruction. Recent attempts at single-image HDR reconstruction show a promising alternative: by learning to map pixel values to their irradiance using a neural network, one can bypass the align-and-merge pipeline completely yet still obtain a high-quality HDR image. In this work, we propose a weakly supervised learning method that inverts the physical image formation process for HDR reconstruction via learning to generate multiple exposures from a single image. Our neural network can invert the camera response to reconstruct pixel irradiance before synthesizing multiple exposures and hallucinating details in under- and over-exposed regions from a single input image. To train the network, we propose a representation loss, a reconstruction loss, and a perceptual loss applied on pairs of under- and over-exposure images and thus do not require HDR images for training. Our experiments show that our proposed model can effectively reconstruct HDR images. Our qualitative and quantitative results show that our method achieves state-of-the-art performance on the DrTMO dataset.
