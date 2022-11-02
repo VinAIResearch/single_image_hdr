@@ -1,0 +1,33 @@
+<x:xmpmeta xmlns:x='adobe:ns:meta/'>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+
+<rdf:Description rdf:about=''
+xmlns:pmtm='http://www.hdrsoft.com/photomatix_settings01'>
+<pmtm:Version>6.0</pmtm:Version>
+<pmtm:Method>Details Enhancer</pmtm:Method>
+<pmtm:Strength>90,0</pmtm:Strength>
+<pmtm:ToneCompression>6,0</pmtm:ToneCompression>
+<pmtm:DetailContrast>8,0</pmtm:DetailContrast>
+<pmtm:WhiteClip>0,500000</pmtm:WhiteClip>
+<pmtm:BlackClip>0,010000</pmtm:BlackClip>
+<pmtm:SmoothingMode>Light</pmtm:SmoothingMode>
+<pmtm:Smoothing>Very High</pmtm:Smoothing>
+<pmtm:Microsmoothing>3,0</pmtm:Microsmoothing>
+<pmtm:HighlightsSmoothing>10,0</pmtm:HighlightsSmoothing>
+<pmtm:ShadowsSmoothing>0,0</pmtm:ShadowsSmoothing>
+<pmtm:ShadowsClipping>0,0</pmtm:ShadowsClipping>
+<pmtm:SaturationHighlights>0,0</pmtm:SaturationHighlights>
+<pmtm:SaturationShadows>0,0</pmtm:SaturationShadows>
+<pmtm:IsPano360>No </pmtm:IsPano360>
+<pmtm:Saturation>-0,8</pmtm:Saturation>
+<pmtm:ColorTemperature>0,0</pmtm:ColorTemperature>
+<pmtm:Brightness>-0,0</pmtm:Brightness>
+<pmtm:SaturationIndividualColors>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</pmtm:SaturationIndividualColors>
+<pmtm:TemperatureIndividualColors>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</pmtm:TemperatureIndividualColors>
+<pmtm:BrightnessIndividualColors>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</pmtm:BrightnessIndividualColors>
+<pmtm:BlendingOpacity>0,0</pmtm:BlendingOpacity>
+<pmtm:BlendWithEV>0,0</pmtm:BlendWithEV>
+</rdf:Description>
+
+</rdf:RDF>
+</x:xmpmeta>
