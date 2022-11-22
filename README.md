@@ -3,7 +3,6 @@
 1. [Get Started](#Get-Started)
 2. [Training and evaluation](#Training-and-evaluation)
 3. [Contacts](#Contacts)
-4. [Citation](#Citation)
 # [WACV 2023] Single-Image HDR Reconstruction by Multi-Exposure Generation
 
 [Phuoc-Hieu Le](https://hieultp.github.io/), [Quynh Le](https://www.linkedin.com/in/quynhtle/), [Rang Nguyen](https://rangnguyen.github.io/), [Binh-Son Hua](https://sonhua.github.io/)
@@ -14,8 +13,21 @@
 
 **Abstract:** <em>High dynamic range</em> (HDR) imaging is an indispensable technique in modern photography. Traditional methods focus on HDR reconstruction from multiple images, solving the core problems of image alignment, fusion, and tone mapping, yet having a perfect solution due to ghosting and other visual artifacts in the reconstruction. Recent attempts at single-image HDR reconstruction show a promising alternative: by learning to map pixel values to their irradiance using a neural network, one can bypass the align-and-merge pipeline completely yet still obtain a high-quality HDR image. In this work, we propose a weakly supervised learning method that inverts the physical image formation process for HDR reconstruction via learning to generate multiple exposures from a single image. Our neural network can invert the camera response to reconstruct pixel irradiance before synthesizing multiple exposures and hallucinating details in under- and over-exposed regions from a single input image. To train the network, we propose a representation loss, a reconstruction loss, and a perceptual loss applied on pairs of under- and over-exposure images and thus do not require HDR images for training. Our experiments show that our proposed model can effectively reconstruct HDR images. Our qualitative and quantitative results show that our method achieves state-of-the-art performance on the DrTMO dataset.
 
-* [**Project**](https://hieultp.github.io/publication/single-image-hdr) 
-* [**Paper**](https://arxiv.org/abs/2210.15897)
+Details of the model architecture as well as experimental results can be found in [our following paper](https://arxiv.org/abs/2210.15897): 
+
+```bibtex
+@inproceedings{le2023singlehdr,
+    title={Single-Image HDR Reconstruction by Multi-Exposure Generation},
+    author={Phuoc-Hieu Le and Quynh Le and Rang Nguyen and Binh-Son Hua},
+    booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month={January},
+    year={2023},
+}
+```
+
+Please **CITE** our paper whenever this repository is used to help produce published results or incorporated into other software.
+
+[**Project Page**](https://hieultp.github.io/publication/single-image-hdr) 
 
 ## Get Started
 
@@ -58,7 +70,7 @@ python train.py --help
 
 ### Testing
 
-The pretrained model can be found in [this link](https://drive.google.com/file/d/1vd1p4j8GNWhQXtHlGtd4yf4OVEDfGmAU/view). To generated the bracketed images, run the following command:
+The pretrained model can be found in [this link](https://drive.google.com/file/d/1vd1p4j8GNWhQXtHlGtd4yf4OVEDfGmAU/view). To generate the bracketed images, run the following command:
 
 ```bash
 python infer_bracketed.py --out_dir results/ --ckpt pretrained.ckpt --in_name e.png --num_workers 2 --test_dir training_data/Test/Bracketed_images/ --test_label_path data/test_hdr.csv
@@ -74,15 +86,3 @@ We also provided tone mapping source code to reproduce results in the paper in [
 ## Contacts
 
 If you have any questions or suggestions about this repo, please feel free to open an issue or contact me at hieultp@gmail.com
-
-## Citation
-
-```bibtex
-@inproceedings{le2023singlehdr,
-    title={Single-Image HDR Reconstruction by Multi-Exposure Generation},
-    author={Phuoc-Hieu Le and Quynh Le and Rang Nguyen and Binh-Son Hua},
-    booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-    month={January},
-    year={2023},
-}
-```
