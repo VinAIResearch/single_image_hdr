@@ -85,4 +85,4 @@ We also provided tone mapping source code to reproduce results in the paper in [
 
 ## Contacts
 
-If you have any questions or suggestions about this repo, please feel free to open an issue or contact me at hieultp@gmail.com
+If you have any questions or suggestions about this repo, please feel free to open an issue or contact me at hieultp1@gmail.com
