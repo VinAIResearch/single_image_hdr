@@ -49,7 +49,7 @@ conda activate single-image-hdr
 
 ### Training 
 
-Please refer to the following link below to download and unzip the dataset: [DrTMO](https://drive.google.com/file/d/150F9rNYV3sc79xs9LsvCBeRIEoggGjyz/view)
+Please refer to the following link below to download and unzip the dataset: [DrTMO](https://uithcm-my.sharepoint.com/:u:/g/personal/17520474_ms_uit_edu_vn/ET6uk6buZdlDnDkcJlRS_PEB6AoENYqFEqnPB5fn8r-oVQ?e=ddLdbw)
 
 To reproduce the model in the paper, start the training process as:
 
@@ -70,7 +70,7 @@ python train.py --help
 
 ### Testing
 
-The pretrained model can be found in [this link](https://drive.google.com/file/d/1vd1p4j8GNWhQXtHlGtd4yf4OVEDfGmAU/view). To generate the bracketed images, run the following command:
+The pretrained model can be found in [this link](https://uithcm-my.sharepoint.com/:u:/g/personal/17520474_ms_uit_edu_vn/EZa3EUzeLdNIibgD4vkixl4BgGTywlgSc9YnU7LRR4w_Jg?e=vgaYZr). To generate the bracketed images, run the following command:
 
 ```bash
 python infer_bracketed.py --out_dir results/ --ckpt pretrained.ckpt --in_name e.png --num_workers 2 --test_dir training_data/Test/Bracketed_images/ --test_label_path data/test_hdr.csv
